@@ -35,26 +35,26 @@ To run this project, you need to have the following dependencies installed:
    cd TEXT_TO-SPEECH-TTS
 Create a virtual environment (optional but recommended):
 
-bash
+```bash
 Copy code
 python -m venv venv
 Activate the virtual environment:
 
 On Windows:
 
-bash
+```bash
 Copy code
 venv\Scripts\activate
 On macOS and Linux:
 
-bash
+```bash
 Copy code
 source venv/bin/activate
 Install the required dependencies:
 
 You can install the dependencies using pip:
 
-bash
+```bash
 Copy code
 pip install gradio soundfile TTS
 Usage
@@ -62,7 +62,7 @@ Run the Gradio application:
 
 After installing the dependencies, run the application with the following command:
 
-bash
+```bash
 Copy code
 python app.py
 Access the app:
