@@ -1,0 +1,38 @@
+# Ignore Python virtual environment directories
+tts_env_39/
+*.env
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large data files and packages
+# You can specify the patterns of the files or extensions to ignore
+# For example, to ignore all .dll and .lib files:
+*.dll
+*.lib
+*.so
+*.dylib
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Ignore specific directories commonly containing large files
+# Adjust the following paths based on your project structure
+tts_env_39/Lib/site-packages/
+tts_env_39/Lib/site-packages/torch/
+tts_env_39/Lib/site-packages/numpy/
+tts_env_39/Lib/site-packages/pandas/
+tts_env_39/Lib/site-packages/scipy/
+tts_env_39/Lib/site-packages/torchvision/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore any other files you may want to exclude
